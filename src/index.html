@@ -4,20 +4,42 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script>
   </head>
   <body>
     <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
 
-    <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
+    <main>  
+      <div class="container">
+        <ul class="badges-list">
+          <li class="badges-item">
+            <a
+              class="badges-link"
+              href="./public/1-gallery.html"
+              rel="noopener noreferrer"
+            >
+              Gallery
+            </a>
+          </li>
+          <li class="badges-item">
+            <a
+              class="badges-link"
+              href="./public/1-form.html"
+              rel="noopener noreferrer"
+            >
+              Form
+            </a>
+          </li>
+      
+        </ul>
+      </div>
     </main>
 
     <load src="./partials/footer.html" />
-
-    <script type="module" src="./main.js"></script>
+    
+    <script type="module" src="./js/1-gallery.js"></script>
   </body>
 </html>

@@ -1,0 +1,21 @@
+.feedback-form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0 auto;
+}
+
+.feedback-form button { 
+    width: 170px;
+    height: 25px;
+    margin: 0 auto;
+    border-radius: 7px;
+}
+
+.labels{
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
